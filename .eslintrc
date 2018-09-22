@@ -1,0 +1,25 @@
+{
+  "globals": {
+    "API_PREFIX": true,
+    "localStorage": true
+  },
+  "extends": ["standard", "standard-react"],
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "template-curly-spacing": ["error", "never"],
+    "comma-dangle": ["error", "always-multiline"],
+    "no-unused-expressions": 0,
+    "handle-callback-err": 0,
+    "max-len": ["error", 120],
+    "no-useless-escape": 0,
+    "no-var": "error"
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "16.4"
+    }
+  }
+}

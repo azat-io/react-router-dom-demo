@@ -1,0 +1,13 @@
+# Node.js / NPM
+node_modules
+npm-debug.log
+
+# Yarn
+yarn-debug.log
+yarn-error.log
+
+# Docs
+docs
+
+# Build
+public
